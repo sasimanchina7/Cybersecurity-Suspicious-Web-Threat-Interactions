@@ -1,21 +1,18 @@
-# Core dependencies
+# Docker Compose Python package
+docker-compose>=2.20.0,<3.0
+
+# Geospatial library
 shapely>=2.3.1,<3.0
-docker-compose>=2.20.0,<2.21.0
 
-# Typical Python utilities
-requests>=2.31.0,<3.0
-numpy>=1.26.0,<2.0
-pandas>=2.1.0,<3.0
-scipy>=1.11.0,<2.0
+# Core dependencies
+requests>=2.30.0,<3.0
+pandas>=2.0.0,<3.0
+numpy>=1.24.0,<2.0
 
-# For testing
-pytest>=7.4.0,<8.0
+# Optional: common utilities
+pyyaml>=6.0,<7.0
+python-dateutil>=2.8.2,<3.0
 
-# Optional: for security & cryptography
-cryptography>=41.0.0,<42.0
-
-# Optional: for async tasks / web
-aiohttp>=3.9.0,<4.0
-
-# Optional: for CLI tools
-click>=8.2.0,<9.0
+# CI-friendly: prevent conflicting deps
+setuptools>=65.0,<67.0
+wheel>=0.38.0,<1.0
