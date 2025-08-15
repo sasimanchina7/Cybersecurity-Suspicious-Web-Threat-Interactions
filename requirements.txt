@@ -1,0 +1,19 @@
+# core
+pandas>=2.0
+numpy>=1.26.0,<2.0
+scikit-learn>=1.3
+joblib
+mlflow>=2.5
+fastapi
+uvicorn[standard]
+requests
+shapely
+
+# dev / ops
+black
+pytest
+flake8
+isort
+pre-commit
+python-dotenv
+docker-compose
