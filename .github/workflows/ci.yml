@@ -20,7 +20,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y build-essential python3-dev libgeos-dev
+          sudo apt-get install -y libgeos-dev
 
       - name: Install deps
         run: |
