@@ -16,4 +16,4 @@ flake8==7.0.0
 isort==6.0.0
 pre-commit==3.5.0
 python-dotenv==1.0.0
-docker-compose==2.21.0
+docker-compose==1.29.2
